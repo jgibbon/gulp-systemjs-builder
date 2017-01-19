@@ -2,6 +2,8 @@ Gulp SystemJS Build Tool
 ===
 A tiny wrapper around SystemJS builder `.bundle` and `.buildStatic` methods. Based on [SystemJS Builder](https://github.com/systemjs/builder). It allows use `.pipe()` method on output after build.
 
+*This fork includes error handling so you can use gulp `.on('Error', function(err) {})` now. -jokecamp*
+
 # Usage
 ```javascript
 var systemjsBuilder = require('gulp-systemjs-builder')
